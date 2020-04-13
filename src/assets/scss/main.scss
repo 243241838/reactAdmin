@@ -1,0 +1,55 @@
+.layout {
+    height: 100vh;
+    .trigger {
+        font-size: 18px;
+        line-height: 64px;
+        padding: 0 24px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+    .trigger:hover {
+        color: #1890ff;
+    }
+    .logo {
+        height: 32px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 16px;
+    }
+    .site-layout .site-layout-background {
+        background: #fff;
+        overflow-y: auto;
+        scrollbar-width: none; /* firefox */
+         -ms-overflow-style: none; /* IE 10+ */
+         &::-webkit-scrollbar {
+           display: none; /* Chrome Safari */
+        }
+    }
+    .sider {
+        height: 100%;
+        overflow-y: auto;
+        scrollbar-width: none; /* firefox */
+        -ms-overflow-style: none; /* IE 10+ */
+        &::-webkit-scrollbar {
+           display: none; /* Chrome Safari */
+        }
+    }
+    .header {
+        // height: 50px;
+        // line-height: 50px;
+        color: #fff;
+    }
+    .textR {
+        text-align: right;
+    }
+   
+}
+.ant-menu-submenu-popup > .ant-menu {
+        background-color: rgba(0,0, 0,0.9);
+        color: rgba(0, 0, 0, 0.65);
+}
+// 表单inline元素没有bottom
+.ant-form.ant-form-inline {
+    .ant-row.ant-form-item {
+        margin-bottom: 10px;
+    }
+}
