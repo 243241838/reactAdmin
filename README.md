@@ -5,7 +5,8 @@
 使用react + react-router + react-router-config  + react-redux + redux-thunk antd版本4 兼容ie11及以上版本
 
 #### react-router-config
-可以让react实现和vue一样的路由定义方式
+可以让react实现和vue一样的路由定义方式， 模块化定义路由
+#### 
 const routes = [
     {
         path: '/',
