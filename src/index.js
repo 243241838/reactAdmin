@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import RouteConfig from './router/';
 import { Provider } from 'react-redux';
 import 'antd/dist/antd.css';
+import '@src/assets/scss/reset.css';
 import store from './store';
 // 全局中文配置
 import { ConfigProvider } from 'antd';

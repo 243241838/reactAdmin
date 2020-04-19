@@ -9,8 +9,15 @@ import systemManage from '@src/page/systemManage';
 // import Template from '@src/template';
 // const login = React.lazy(() => import("@src/page/Login"));
 import login from '@src/page/Login';
+import  Index from '@src/page/Index/Index';
 // exact对应一个页面是用， 一个模块时不要用， 否则一级路由使用， 匹配不到二级
 const routes = [
+      {
+        path: '/index',
+        exact: true,
+        component: Index,
+        title: 'Index'
+    },
     {
         path: '/',
         exact: true,
